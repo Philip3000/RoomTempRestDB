@@ -1,0 +1,19 @@
+python tempmåler sensehat med tekst hvis over 22'
+import sense_hat
+from time import sleep, time
+from random import randint
+
+sense = sense_hat.SenseHat()
+
+def tempCheck():
+  if temp < 19:
+    sense.clear(0,0,255)
+  if temp == 19:
+    sense.clear(0,255,0)
+  if temp > 19:
+    sense.clear(255,0,0)
+  if temp > 22:
+    sense.show_message('Skru Ned')
+while True:
+  temp = sense.get_temperature()
+  tempCheck()

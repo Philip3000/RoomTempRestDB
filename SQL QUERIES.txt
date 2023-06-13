@@ -1,0 +1,17 @@
+Create table
+CREATE TABLE RoomTemp (
+//Identity(1,1) tilføjer automatisk og inkrementerer id
+  Id INT IDENTITY(1,1) PRIMARY KEY,
+  RoomNo VARCHAR(10) NOT NULL,
+  Temp_C INT NOT NULL,
+  Day VARCHAR(20) NOT NULL
+);
+
+Insert values:
+INSERT INTO RoomTemp (RoomNo, Temp_C, Day)
+VALUES ('D3.17', 19, 'Monday'),
+       ('D3.17', 25, 'Friday'),
+       ('D3.14', 17, 'Monday'),
+       ('D3.14', 19, 'Friday'),
+       ('D2.11', 22, 'Monday'),
+       ('D2.11', 21, 'Friday');
