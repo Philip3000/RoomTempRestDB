@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomTempRestDB", "RoomTempRestDB.csproj", "{79B072B9-CFEF-4DCB-B881-E842225390A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B072B9-CFEF-4DCB-B881-E842225390A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B072B9-CFEF-4DCB-B881-E842225390A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B072B9-CFEF-4DCB-B881-E842225390A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B072B9-CFEF-4DCB-B881-E842225390A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {125E7662-EA0F-4C73-AEC6-AA28DDCDC5A8}
+	EndGlobalSection
+EndGlobal
